@@ -1,0 +1,75 @@
+<html lang="en-US">
+<head>
+  <title>HTML5 Video Tag</title>
+    <metacharset="utf-8">
+        <style>
+        .blink {
+        animation: blinker 1.5s linear infinite;
+        color:red;
+        font-family:sans-serif;
+        }
+        @keyfranes blinker {
+        50%}{
+        opacity:0;
+        }
+        .subi {
+          color:red;
+          font-family:sans-serif;
+        }
+        .burn {
+          color:yellow;
+          font-family: sans-serif;
+        }
+        .curl {
+          color:magenta;
+          font-family:sans-serif;
+        }
+        .but {
+          color:magenta;
+          font-family:sans-serif;
+        }
+        .yew {
+          color:brown;
+          font-family: sans-serif;
+        }
+        .slider {
+  position: absolute;
+  width: 50%; 
+  transform-style: preserve-3d;
+  animation: rotate 15s infinite linear;
+}
+
+        </style>
+</head>
+<body bgcolor="pink">
+<body>
+<center>
+<marquee class="blink" behavior="scroll" width="60%" direction="right"  scrollamount="12" height="100px">My Cdrama song recommendation♡</marquee>
+<p class="subi">
+  This song is from meteor garden(2018).
+</p>
+<p class="burn">
+  Do you like it?
+</p>
+<div>
+  <button class="curl" id="yesButton">Yes</button>
+  <button class="yew" id="orButton">or</button>
+  <button class="but" id="yesButton">Yes</button>
+</div>
+  <div class="slide">
+    <img src="Pic 2.png" width="400">
+  </div>
+  <div class="slide">
+    <img src="Pic 3.png" width="400">
+  </div>
+  <div class="slide">
+    <img src="Pic 4.png" width="400">
+  </div>
+</div>
+
+
+<video width="500" height="500" controls="bottom" >
+<source src="For you.mp4" type="video/mp4"</video>
+
+</body>
+</html>
